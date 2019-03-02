@@ -1,0 +1,955 @@
+<link
+	href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"
+	rel="stylesheet" id="bootstrap-css">
+<script
+	src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script
+	src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="row" id="header_row">
+	<div id="JLBHeader">
+		<div class="row" id="header_row">
+			<div id="logoHeader">
+				<img class="logo"
+					src="http://library.indwes.edu/images/ACA-5231%20Library%20Logo2.png">
+				<button type="button" class="navbar-toggle collapsed btn-default"
+					data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+					aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="glyphicon glyphicon-menu-hamburger"></span> Menu
+				</button>
+				<div class="navbar-right">
+					<ul class="nav navbar-nav">
+						<li><a href="https://oak.indwes.edu/patroninfo~S0/">My
+								Library Account</a></li>
+						<li><a onclick="return SnapABug.startLink();">Chat</a></li>
+						<li><a href="http://indwes.libguides.com/researchservices">Contact
+								Us</a></li>
+						<li class="dropdown"><a class="dropdown-toggle" href="#"
+							data-toggle="dropdown" id="navLogin"><span
+								class="glyphicon glyphicon-search icon-size"></span></a>
+							<div class="dropdown-menu" style="padding: 17px;">
+								<script>
+									springshare_widget_config_1542316153753 = {};
+								</script>
+								<div id="s-lg-widget-1542316153753"></div>
+								<script>
+									!function(d, s, id) {
+										var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/
+												.test(d.location) ? 'http'
+												: 'https';
+										if (!d.getElementById(id)) {
+											js = d.createElement(s);
+											js.id = id;
+											js.src = p
+													+ "://lgapi-us.libapps.com/widgets.php?site_id=494&widget_type=7&widget_embed_type=1&output_format=1&search_box_type=1&group_id=7312&placeholder_text=Search+library+website...&button_text=Search&widget_height=&widget_width=250&config_id=1542316153753";
+											fjs.parentNode
+													.insertBefore(js, fjs);
+										}
+									}(document, "script",
+											"s-lg-widget-script-1542316153753");
+								</script>
+							</div></li>
+					</ul>
+				</div>
+
+			</div>
+
+		</div>
+		<div class="row" id="header_row"
+			style="background-color: #ffffff; padding: 2px"></div>
+		<div class="row" id="header_row"
+			style="background-color: #737373; padding: 10px">
+			<div class="collapse navbar-collapse"
+				id="bs-example-navbar-collapse-1">
+				<div class="navbar-center ">
+					<ul class="nav navbar-nav">
+						<li class="border-side">
+							<div class="dropdown">
+								<button type="button" class="btn btn-link dropdown-toggle"
+									data-toggle="dropdown">
+									Find <span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu multi-column columns-2">
+									<div class="row">
+										<div class="col-sm-6">
+											<ul class="multi-column-dropdown">
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Another action</a></li>
+												<li><a href="#">Something else here that's extra
+														long so we can see how it looks</a></li>
+												<li class="divider"></li>
+												<li><a href="#">Separated link</a></li>
+												<li class="divider"></li>
+												<li><a href="#">One more separated link</a></li>
+											</ul>
+										</div>
+										<div class="col-sm-6">
+											<ul class="multi-column-dropdown">
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Another action</a></li>
+												<li><a href="#">Something else here</a></li>
+												<li class="divider"></li>
+												<li><a href="#">Separated link</a></li>
+												<li class="divider"></li>
+												<li><a href="#">One more separated link</a></li>
+											</ul>
+										</div>
+									</div>
+								</ul>
+							</div>
+						</li>
+						<li class="border-side">
+							<div class="dropdown">
+								<button type="button" class="btn btn-link dropdown-toggle"
+									data-toggle="dropdown">
+									Using the Library <span class="caret"></span>
+								</button>
+							</div>
+						</li>
+						<li class="border-side">
+							<div class="dropdown">
+								<button type="button" class="btn btn-link dropdown-toggle"
+									data-toggle="dropdown">
+									Research Help <span class="caret"></span>
+								</button>
+							</div>
+						</li>
+						<li class="border-side2">
+							<div class="dropdown">
+								<button type="button" class="btn btn-link dropdown-toggle"
+									data-toggle="dropdown">
+									About the Library <span class="caret"></span>
+								</button>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- END: Page Header -->
+	<!-- BEGIN: Guide Info Header -->
+	<div id="s-lg-guide-header"
+		class="container s-lib-header s-lib-side-borders">
+		<div id="s-lib-bc">
+			<!--  
+			<ol id="s-lib-bc-list" class="breadcrumb">
+				
+					<li id="s-lib-bc-customer">
+						<a title="Jackson Library"  href="http://www.indwes.edu/library">Jackson Library
+						</a>
+					</li>
+					<li id="s-lib-bc-site">
+						<a title="Research Guides"  href="//indwes.libguides.com/">Research Guides
+						</a>
+					</li>
+					<li id="s-lib-bc-group">
+						<a title="Lewis A. Jackson Library"  href="//indwes.libguides.com/Updates">Lewis A. Jackson Library
+						</a>
+					</li>
+					<li id="s-lib-bc-guide">
+						<a title="Design 1"  href="//indwes.libguides.com/c.php?g=863585">Design 1
+						</a>
+					</li>
+					<li id="s-lib-bc-page" class="active">Home
+					</li>
+			</ol> -->
+		</div>
+		<div class="pull-right">
+			<div id="s-lg-guide-header-search">
+				<!--   
+                <div id="s-lg-guide-search-box">
+                    <form role="search" id="s-lg-guide-search-form" action="//indwes.libguides.com/srch.php"
+                    method="GET">
+                        <div class="input-group input-group-sm">
+                            <input type="text" id="s-lg-guide-search-terms" name="q" class="form-control" placeholder="Search the library website">
+                            <label class="sr-only" for="s-lg-guide-search-terms">Search the library website</label><input type="hidden" name="guide_id" value="863585" />
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit">Search</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>  -->
+			</div>
+
+		</div>
+		<div id="s-lg-guide-header-info">
+			<h1 id="s-lg-guide-name" class="sr-only">Design 1</h1>
+			<div id="s-lg-guide-desc-container">
+				<span id="s-lg-guide-description" class="sr-only">Redo after
+					SpringShare destroyed my code</span>
+			</div>
+		</div>
+	</div>
+	<!-- END: Guide Info Header -->
+
+	<div id="s-lg-tabs-container"
+		class="container s-lib-side-borders pad-top-med">
+		<div id="s-lg-guide-tabs" class="tabs" role="navigation"
+			aria-label="Guide Page Menu">
+			<ul class="nav nav-tabs split-button-nav" role="menu">
+
+			</ul>
+		</div>
+	</div>
+
+	<div id="s-lg-guide-tabs-title-bar"
+		class="container s-lib-side-borders"></div>
+	<!-- BEGIN: Guide Content -->
+	<div id="s-lg-guide-main"
+		class="container s-lib-main s-lib-side-borders">
+
+		<!-- begin row 1 -->
+		<div class="row s-lg-row" id="Row1">
+			<div id="s-lg-col-1" class="col-md-12">
+				<div class="s-lg-col-boxes">
+
+					<div id="s-lg-box-wrapper-23826064"
+						class="s-lg-box-wrapper-23826064">
+						<div id="s-lg-box-20301367-container" class="s-lib-box-container">
+							<div id="s-lg-box-20301367"
+								class="s-lib-box s-lib-box-std s-lib-floating-box">
+
+								<div id="s-lg-box-collapse-20301367">
+									<div
+										class="s-lib-box-content s-lib-floating-box-content pad-left-none pad-right-none">
+
+										<div id="s-lg-content-45346005" class="  clearfix">
+											<div class="container-fluid " id="main-banner">
+												<div class="row" id="mainRow">
+													<div class="col-sm-12 ">
+														<div id="catsearch">
+															<div class="form-inline">
+																<div class="form-group">
+																	<label class="sr-only" for="searchBox">QUICKSearch:
+																		find articles, journals, books, media and more...</label>
+																	<div class="input-group">
+																		<input class="form-control primosearchbox"
+																			id="ebscohostsearchtext" name="ebscohostsearchtext"
+																			placeholder="QUICKSearch:  find articles, journals, books, media and more..."
+																			type="text" value="" />
+																		<div class="input-group-btn">
+																			<button
+																				class="btn btn-default dropdown-toggle advtoggle"
+																				data-toggle="dropdown" type="button">
+																				<i aria-hidden="true" class="fa fa-caret-down"></i>
+																			</button>
+																			<button class="btn btn-primary" id="submit-button"
+																				onclick="checkCustomLimiters()">
+																				<span aria-hidden="true" class="fa fa-search"> </span>
+																			</button>
+																			<div class="dropdown-menu dropdown-menu-right"
+																				role="menu">
+																				<!-- <div class="form-group"><input class="form-control" type="text" /></div>
+
+						<div class="form-group"><select class="form-control"><option selected="selected" value="0">Select a field (optional)</option><option value="1">TX All Text</option><option value="2">AU Author</option><option value="3">TI Title</option><option value="4">SU Subject Terms</option><option value="5">SO Journal Title/Source</option> </select></div>
+						</button></div> -->
+																				<form class="form-horizontal" role="form">
+																					<div class="form-group">
+																						<li class="limiter-item"><input
+																							id="chkPeerReviewed" name="chkPeerReviewed"
+																							type="checkbox"> <label
+																							for="chkPeerReviewed">Scholarly (Peer
+																								Reviewed) Journals</label></li>
+
+
+																						<li class="limiter-item"><input
+																							id="chkOnlineOnly" name="chkOnlineOnly"
+																							type="checkbox"> <label
+																							for="chkOnlineOnly">Full Text</label></li>
+
+
+																						<li class="limiter-item"><input
+																							id="chkPrintBooksOnly" name="chkPrintBooksOnly"
+																							type="checkbox"> <label
+																							for="chkPrintBooksOnly">Print Books Only</label>
+
+																						</li>
+
+
+
+																						<li class="limiter-item"><input
+																							id="chkPrintBooksEbooks"
+																							name="chkPrintBooksEbooks" type="checkbox">
+																							<label for="chkPrintBooksEbooks">Print
+																								Books and eBooks</label></li>
+
+																						<li class="limiter-item"><input
+																							id="chkArticlesOnly" name="chkArticlesOnly"
+																							type="checkbox"> <label
+																							for="chkArticlesOnly">Articles Only</label></li>
+																					</div>
+																				</form>
+																			</div>
+																		</div>
+
+																	</div>
+																</div>
+
+																<div id="advanced-search">
+																	<span style="color: white;">Other Tools:</span> <a
+																		class="advanced-search" href="/advanced-search/"
+																		rel="noindex,nofollow">Catalog</a>  <a
+																		class="advanced-search" href="/resources">Databases</a>  <a
+																		class="advanced-search" href="/resources">Journals</a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!-- end row 1 -->
+
+											<!-- begin row 2 -->
+											<div class="row s-lg-row" id="Row2">
+												<div id="s-lg-col-2" class="col-md-8">
+													<div class="s-lg-col-boxes">
+
+														<div id="s-lg-box-wrapper-23639123"
+															class="s-lg-box-wrapper-23639123">
+															<div id="s-lg-box-20141163-container"
+																class="s-lib-box-container">
+																<div id="s-lg-box-20141163"
+																	class="s-lib-box s-lib-box-std s-lib-floating-box">
+
+																	<div id="s-lg-box-collapse-20141163">
+																		<div
+																			class="s-lib-box-content s-lib-floating-box-content pad-left-none pad-right-none">
+
+																			<div id="s-lg-content-44962803" class="  clearfix">
+																				<style type="text/css">
+.list-group {
+	width: 60%;
+}
+
+.row {
+	margin-left: 16px;
+	margin-right: 16px;
+}
+</style>
+																				<div class="container-fluid"
+																					style="background-color: #fff">
+																					<div class="row">
+																						<div class="col-md-12" style="font-size: 18pt">Find</div>
+																					</div>
+
+																					<div class="row">
+																						<div class="list-group" id="profRes">
+																							<a class="list-group-item"
+																								href="http://library.ouhsc.edu/friendly.php?s=libservices"><i
+																								aria-hidden="true"
+																								class="fa fa-bookmark fa-fw fa-lg"></i> 
+																								Articles</a> <a class="list-group-item"
+																								href="http://library.ouhsc.edu/friendly.php?s=RefInstructConsult"><i
+																								aria-hidden="true"
+																								class="fa fa-book fa-fw fa-lg"></i>  Books &
+																								eBooks</a> <a class="list-group-item"
+																								href="http://library.ouhsc.edu/friendly.php?s=ResearchTools"><i
+																								aria-hidden="true"
+																								class="fa fa-book-reader fa-fw fa-lg"></i> 
+																								Journals & Magazines</a> <a class="list-group-item"
+																								href="http://library.ouhsc.edu/friendly.php?s=SpecialtyCollections"><i
+																								aria-hidden="true"
+																								class="fa fa-database fa-fw fa-lg"></i> 
+																								Databases</a> <a class="list-group-item"
+																								href="http://libanswers.ouhsc.edu/search"><i
+																								aria-hidden="true"
+																								class="fa fa-film fa-fw fa-lg"></i>  Video</a> <a
+																								class="list-group-item"
+																								href="http://cdm16336.contentdm.oclc.org/"><i
+																								aria-hidden="true"
+																								class="fa fa-newspaper fa-fw fa-lg"></i> 
+																								Newspapers</a> <a class="list-group-item"
+																								href="http://library.ouhsc.edu/friendly.php?s=RMBSociety"><i
+																								aria-hidden="true"
+																								class="fa fa-graduation-cap fa-fw fa-lg"></i> 
+																								Thesis & Dissertations</a> <a
+																								class="list-group-item"
+																								href="http://library.ouhsc.edu/friendly.php?s=RMBSociety"><i
+																								aria-hidden="true"
+																								class="fa fa-book-open fa-fw fa-lg"></i>  CLEP &
+																								Study Guides</a>
+																						</div>
+																					</div>
+																				</div>
+
+																			</div>
+																		</div>
+
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4">
+													<div class="row" id="Row2A">
+														<div id="s-lg-col-3" class="col-md-12">
+															<div class="s-lg-col-boxes">
+
+																<div id="s-lg-box-wrapper-23090237"
+																	class="s-lg-box-wrapper-23090237">
+																	<div id="s-lg-box-19677893-container"
+																		class="s-lib-box-container">
+																		<div id="s-lg-box-19677893"
+																			class="s-lib-box s-lib-box-std s-lib-floating-box">
+
+																			<div id="s-lg-box-collapse-19677893">
+																				<div
+																					class="s-lib-box-content s-lib-floating-box-content pad-left-none pad-right-none">
+
+																					<div id="s-lg-content-43820943" class="  clearfix">
+																						<div class="container-fluid"
+																							style="background-color: white">
+																							<div class="row" style="padding-bottom: 15px;">
+																								<div class="col-md-12"
+																									style="color: #2F5597; font-size: 18px; font-weight: bold;">
+																									<i class="far fa-clock"
+																										style="font-size: 24px; color: #2F5597; padding-right: 5px"></i>Today's
+																									Hours <span class="cal-link"> <a
+																										href="#">All Hours</a></span>
+																								</div>
+																							</div>
+
+																							<div class="row">
+																								<div class="col-md-3"
+																									style="padding-left: 20px;">
+																									<script type="text/javascript"
+																										src="//libapps.s3.amazonaws.com/sites/494/include/OpenClose.js"></script>
+																								</div>
+
+																								<div class="col-md-9">
+																									<div id="api_hours_today_iid4215_lid9011"> </div>
+																									<script
+																										src="https://api3.libcal.com/api_hours_today.php?iid=4215&lid=9011&format=js&systemTime=0&context=object">
+																										
+																									</script>
+																								</div>
+																							</div>
+																						</div>
+
+																					</div>
+																				</div>
+
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div id="s-lg-box-wrapper-23090327"
+																	class="s-lg-box-wrapper-23090327">
+																	<div id="s-lg-box-19677970-container"
+																		class="s-lib-box-container">
+																		<div id="s-lg-box-19677970"
+																			class="s-lib-box s-lib-box-std s-lib-floating-box">
+
+																			<div id="s-lg-box-collapse-19677970">
+																				<div
+																					class="s-lib-box-content s-lib-floating-box-content pad-left-none pad-right-none">
+
+																					<div id="s-lg-content-43821150" class="  clearfix">
+																						<div class="container-fluid"
+																							style="background-color: #fff">
+																							<div class="row">
+																								<div class="col-md-12" style="font-size: 18pt">I
+																									Want To</div>
+																							</div>
+
+																							<div class="row">
+																								<div class="col-md-12">
+																									<a class="btn btn-lrc btn-lg btn-block"
+																										href="http://indwes.evanced.info/dibs/Search"
+																										type="button"><i class="fas fa-users"
+																										style="font-size: 30px; color: white; padding-right: 15px"></i>
+																										Reserve a Study Room</a> <a
+																										class="btn btn-lrc btn-lg btn-block"
+																										href="http://indwes.libguides.com/appointment"
+																										type="button"><i
+																										class="fas fa-calendar-alt"
+																										style="font-size: 30px; color: white; padding-right: 15px"></i>Schedule
+																										a Research Appointment</a> <a
+																										class="btn btn-lrc btn-lg btn-block"
+																										href="http://oak.indwes.edu/patroninfo"
+																										type="button"><i class="fas fa-sync-alt"
+																										style="font-size: 30px; color: white; padding-right: 15px"></i>Renew
+																										My Materials</a> <a
+																										class="btn btn-lrc btn-lg btn-block"
+																										href="https://printmgr.indwes.edu:9192/user"
+																										type="button"><i class="fas fa-print"
+																										style="font-size: 30px; color: white; padding-right: 15px"></i>Access
+																										My Print Account</a>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+
+																				</div>
+																			</div>
+
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="row" id="Row2B">
+													<div id="s-lg-col-4" class="col-md-12">
+														<div class="s-lg-col-boxes"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- end row 2 -->
+
+										<!-- begin row 3-->
+										<div class="row s-lg-row" id="Row3">
+											<div id="s-lg-col-5" class="col-md-12">
+												<div class="s-lg-col-boxes">
+
+													<div id="s-lg-box-wrapper-23090337"
+														class="s-lg-box-wrapper-23090337">
+														<div id="s-lg-box-19677974-container"
+															class="s-lib-box-container">
+															<div id="s-lg-box-19677974"
+																class="s-lib-box s-lib-box-std s-lib-floating-box">
+
+																<div id="s-lg-box-collapse-19677974">
+																	<div
+																		class="s-lib-box-content s-lib-floating-box-content pad-left-none pad-right-none">
+
+																		<div id="s-lg-content-43821159" class="  clearfix">
+																			<div class="container-fluid">
+																				<div class="row">
+																					<div class="col-md-12"
+																						style="text-align: center; font-size: 16pt; font-weight: bold; padding-bottom: 20px;">Library
+																						Services</div>
+
+																					<div class="col-md-12" style="text-align: center;"> </div>
+																				</div>
+
+																				<div class="row">
+																					<div class="col-md-3">
+																						<strong>Interlibrary Loan (ILL)</strong>
+
+																						<p> </p>
+
+																						<p>Get books and articles we don't own</p>
+
+																						<p>
+																							<img alt="Image of a truck"
+																								src="https://libapps.s3.amazonaws.com/accounts/13288/images/ILL_Blue.png"
+																								style="width: 126px; height: 126px;" />
+																						</p>
+																					</div>
+
+																					<div class="col-md-3">
+																						<p>
+																							<strong>Ask A Librarian</strong>
+																						</p>
+
+																						<p>
+																							Assistance for<br /> student/faculty/staff
+																						</p>
+
+																						<p>
+																							<img alt="Image of 2 people chatting"
+																								src="https://libapps.s3.amazonaws.com/accounts/13288/images/AskALibrarian_Blue.png"
+																								style="width: 126px; height: 126px;" />
+																						</p>
+																					</div>
+
+																					<div class="col-md-3">
+																						<p>
+																							<strong>Research Guides</strong>
+																						</p>
+
+																						<p>
+																							Tips and shortcuts to<br /> make research easier
+																						</p>
+
+																						<p>
+																							<img alt="Image of a map or guide"
+																								src="https://libapps.s3.amazonaws.com/accounts/13288/images/ResearchGuides_Blue.png"
+																								style="width: 126px; height: 126px;" />
+																						</p>
+																					</div>
+
+																					<div class="col-md-3">
+																						<p>
+																							<strong>Borrowing Materials</strong><br />
+																							Collection info and policies
+																						</p>
+
+																						<p>
+																							<img alt="Image of an ID card"
+																								src="https://libapps.s3.amazonaws.com/accounts/13288/images/BorrowMaterials_Blue.png"
+																								style="width: 126px; height: 126px;" />
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+
+																		</div>
+																	</div>
+
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+										</div>
+										<!-- end row 3 -->
+
+										<!-- begin row 4-->
+										<div class="row s-lg-row" id="Row4">
+											<div id="s-lg-col-6" class="col-md-8">
+												<div class="s-lg-col-boxes">
+
+													<div id="s-lg-box-wrapper-23090345"
+														class="s-lg-box-wrapper-23090345">
+														<div id="s-lg-box-19677978-container"
+															class="s-lib-box-container">
+															<div id="s-lg-box-19677978"
+																class="s-lib-box s-lib-box-std s-lib-floating-box">
+
+																<div id="s-lg-box-collapse-19677978">
+																	<div
+																		class="s-lib-box-content s-lib-floating-box-content pad-left-none pad-right-none">
+
+																		<div id="s-lg-content-43821171" class="  clearfix">
+																			<div class="container-fluid">
+																				<div class="row">
+																					<div class="col-md-12"
+																						style="background-color: white">
+																						<p style="text-align: center;">
+																							<span style="font-size: 16pt;">How to
+																								Research by Subject</span><br /> <span
+																								style="color: #AB192A;">view all</span>
+																						</p>
+																					</div>
+																				</div>
+
+																				<div class="row" style="background-color: white">
+																					<div class="col-md-2"> </div>
+
+																					<div class="col-md-4">
+																						<i aria-hidden="true" class="fa fa-chevron-right"></i> Education<br />
+																						<i aria-hidden="true" class="fa fa-chevron-right"></i> Nursing<br />
+																						<i aria-hidden="true" class="fa fa-chevron-right"></i> Business<br />
+																						<i aria-hidden="true" class="fa fa-chevron-right"></i> Religion<br />
+																						<i aria-hidden="true" class="fa fa-chevron-right"></i> History<br />
+																						<i aria-hidden="true" class="fa fa-chevron-right"></i> Communication<br />
+																						<i aria-hidden="true" class="fa fa-chevron-right"></i> English<br />
+																						<i aria-hidden="true" class="fa fa-chevron-right"></i> Sports/Athletic
+																						Training
+																					</div>
+
+																					<div class="col-md-1"> </div>
+
+																					<div class="col-md-4">
+																						<i aria-hidden="true" class="fa fa-chevron-right"></i> Linguistics<br />
+																						<i aria-hidden="true" class="fa fa-chevron-right"></i> Literature<br />
+																						<i aria-hidden="true" class="fa fa-chevron-right"></i> Music<br />
+																						<i aria-hidden="true" class="fa fa-chevron-right"></i> Philosophy<br />
+																						<i aria-hidden="true" class="fa fa-chevron-right"></i> Psychology<br />
+																						<i aria-hidden="true" class="fa fa-chevron-right"></i> Sociology<br />
+																						<i aria-hidden="true" class="fa fa-chevron-right"></i> Writing
+																					</div>
+
+																					<div class="col-md-1"> </div>
+																				</div>
+																			</div>
+
+																		</div>
+																	</div>
+
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div id="s-lg-col-7" class="col-md-4">
+												<div class="s-lg-col-boxes">
+
+													<div id="s-lg-box-wrapper-23898880"
+														class="s-lg-box-wrapper-23898880">
+														<div id="s-lg-box-20364542-container"
+															class="s-lib-box-container">
+															<div id="s-lg-box-20364542"
+																class="s-lib-box s-lib-box-std s-lib-floating-box">
+
+																<div id="s-lg-box-collapse-20364542">
+																	<div
+																		class="s-lib-box-content s-lib-floating-box-content pad-left-none pad-right-none">
+
+																		<div id="s-lib-cpane-23898880">
+																			<div style="width: 100%;">
+																				<img
+																					src="//libapps.s3.amazonaws.com/accounts/13288/images/Jackson_Library_Staff_2015_-_3968.jpg"
+																					alt="Alison Johnson, Assistant Director" class=""
+																					style="max-height: 25vh; margin: 0 auto; min-width: 0; width: auto">
+																				<div class="s-lib-cpane-caption ">
+																					<h3>Alison Johnson</h3>
+																				</div>
+																			</div>
+																			<div style="width: 100%;">
+																				<img
+																					src="//libapps.s3.amazonaws.com/accounts/13288/images/Jackson_Library_Staff_2015_-_3976.jpg"
+																					alt="Bruce Brinkley, Senior Reference Librarian"
+																					class=""
+																					style="max-height: 25vh; margin: 0 auto; min-width: 0; width: auto">
+																				<div class="s-lib-cpane-caption ">
+																					<h3>Bruce Brinkley</h3>
+																				</div>
+																			</div>
+																			<div style="width: 100%;">
+																				<img
+																					src="//libapps.s3.amazonaws.com/accounts/13288/images/Jackson_Library_Staff_2015_-_3988.jpg"
+																					alt="Laura Kelsey, Instructional Services Librarian"
+																					class=""
+																					style="max-height: 25vh; margin: 0 auto; min-width: 0; width: auto">
+																				<div class="s-lib-cpane-caption ">
+																					<h3>Laura Kelsey</h3>
+																				</div>
+																			</div>
+																			<div style="width: 100%;">
+																				<img
+																					src="//libapps.s3.amazonaws.com/accounts/13288/images/Jackson_Library_Staff_2015_-_3971.jpg"
+																					alt="Sheila Carlblom, Director" class=""
+																					style="max-height: 25vh; margin: 0 auto; min-width: 0; width: auto">
+																				<div class="s-lib-cpane-caption ">
+																					<h3>Sheila Carlblom</h3>
+																				</div>
+																			</div>
+																			<div style="width: 100%;">
+																				<img
+																					src="//libapps.s3.amazonaws.com/accounts/13288/images/Jackson_Library_Staff_2015_-_3984.jpg"
+																					alt="Jaime Pitt, Technical Services Librarian"
+																					class=""
+																					style="max-height: 25vh; margin: 0 auto; min-width: 0; width: auto">
+																				<div class="s-lib-cpane-caption ">
+																					<h3>Jaime Pitt</h3>
+																				</div>
+																			</div>
+																			<div style="width: 100%;">
+																				<img
+																					src="//libapps.s3.amazonaws.com/accounts/13288/images/Jackson_Library_Staff_2015_-_3996.jpg"
+																					alt="Steve Brown, Technical Services Librarian"
+																					class=""
+																					style="max-height: 25vh; margin: 0 auto; min-width: 0; width: auto">
+																				<div class="s-lib-cpane-caption ">
+																					<h3>Steve Brown</h3>
+																				</div>
+																			</div>
+																			<div style="width: 100%;">
+																				<img
+																					src="//libapps.s3.amazonaws.com/accounts/13288/images/Jackson_Library_Staff_2015_-_3964.jpg"
+																					alt="Pam Childers, System & Web Librarian" class=""
+																					style="max-height: 25vh; margin: 0 auto; min-width: 0; width: auto">
+																				<div class="s-lib-cpane-caption ">
+																					<h3>Pam Childers</h3>
+																				</div>
+																			</div>
+																		</div>
+																		<script>
+																			jQuery(
+																					"#s-lib-cpane-23898880")
+																					.parent()
+																					.css(
+																							"opacity",
+																							0);
+																		</script>
+																		<link rel="stylesheet" type="text/css"
+																			href="//lgapi-us.libapps.com/web/slick-1.7.1/slick/slick.css">
+																		<link rel="stylesheet" type="text/css"
+																			href="//lgapi-us.libapps.com/web/slick-1.7.1/slick/slick-theme.css">
+																	</div>
+
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+										</div>
+										<!-- end row 4 -->
+										<!-- begin row 5-->
+										<div class="row s-lg-row" id="Row5">
+											<div id="s-lg-col-8" class="col-md-12">
+												<div class="s-lg-col-boxes">
+
+													<div id="s-lg-box-wrapper-23090473"
+														class="s-lg-box-wrapper-23090473">
+														<div id="s-lg-box-19678081-container"
+															class="s-lib-box-container">
+															<div id="s-lg-box-19678081"
+																class="s-lib-box s-lib-box-std s-lib-floating-box">
+
+																<div id="s-lg-box-collapse-19678081">
+																	<div
+																		class="s-lib-box-content s-lib-floating-box-content pad-left-none pad-right-none">
+
+																		<div id="s-lg-content-43821367" class="  clearfix">
+																			<div class="container-fluid"
+																				style="background: url(https :// libapps.s3.amazonaws.com/ accounts/ 13288/ images/ JLB_LibraryServices_BW.png">
+																				<div class="row" style="padding-top: 60px">
+																					<div class="col-md-2"> </div>
+
+																					<div class="col-md-3"
+																						style="background-color: white">
+																						<p>
+																							<span style="font-size: 16pt">Services For</span><span
+																								style="font-size: 16pt"></span><br /> <br /> <i
+																								aria-hidden="true" class="fa fa-chevron-right"></i>  Students<br />
+																							<i aria-hidden="true" class="fa fa-chevron-right"></i>  
+																							Faculty<br /> <i aria-hidden="true"
+																								class="fa fa-chevron-right"></i>   Staff<br />
+																							<i aria-hidden="true" class="fa fa-chevron-right"></i>  Visitors<br />
+																							<i aria-hidden="true" class="fa fa-chevron-right"></i>  Distance
+																							Users
+																						</p>
+																					</div>
+																					<div class="col-md-2"> </div>
+
+																					<div class="col-md-3"
+																						style="background-color: white;">
+																						<span style="font-size: 16pt;">Popular
+																							Resources</span><br /> <span
+																							style="color: #AB192A; font-size: 16pt;">view
+																							all</span>
+																					</div>
+
+																					<div class="col-md-2"> </div>
+																					<script>
+																						var acc = document
+																								.getElementsByClassName("accordion");
+																						var i;
+
+																						for (i = 0; i < acc.length; i++) {
+																							acc[i].onclick = function() {
+																								this.classList
+																										.toggle("active");
+																								this.nextElementSibling.classList
+																										.toggle("show");
+																							}
+																						}
+																					</script>
+																				</div>
+																			</div>
+																		</div>
+
+																	</div>
+																</div>
+
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<!-- end row 5 -->
+									<!-- begin row 6-->
+									<div class="row s-lg-row" id="Row6">
+										<div id="s-lg-col-9" class="col-md-12">
+											<div class="s-lg-col-boxes"></div>
+
+										</div>
+									</div>
+									<!-- end row 6 -->
+
+
+
+								</div>
+								<!-- END: Guide Content -->
+								<!-- BEGIN: Page Footer -->
+								<!-- <div id="s-lib-footer-public"
+     class="s-lib-footer footer container  s-lib-side-borders">
+    <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix">
+        <ul id="s-lg-guide-header-attributes" class="">
+            <li id="s-lg-guide-header-updated" class="s-lg-h-separator">
+                <span class="s-lg-guide-label">Last Updated:</span> <span class="s-lg-text-greyout">Jan 2, 2019 3:47 PM</span>         </li>
+            <li id="s-lg-guide-header-url" class="s-lg-h-separator">
+                 <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">https://indwes.libguides.com/c.php?g=863585</span> 
+            </li>
+            <li id="s-lg-guide-print-url">
+             <a href="javascript: window.print();"><i class="fa fa-print" title="Print Page"></i> Print Page</a> 
+            </li>
+        </ul>
+        <div id="s-lib-footer-login-link" class="pull-right pad-right-med">
+            <a href="https://indwes.libapps.com/libapps/login.php?site_id=494&target64=L2xpYmd1aWRlcy9hZG1pbl9jLnBocD9nPTg2MzU4NSZwPTYxOTIyMDg=">Login to LibApps</a>        </div> 
+    </div>
+
+</div> -->
+								<!-- END: Page Footer -->
+
+								<div id="s-lib-scroll-top">
+									<a href="javascript:void(0);"
+										onclick="jQuery('html, body').animate({scrollTop: 0}, 750);"
+										title="Back to Top" aria-label="Back to Top"
+										aria-hidden="true"> <span class="fa-stack fa-lg"> <i
+											class="fa fa-square-o fa-stack-2x"></i> <i
+											class="fa fa-angle-double-up fa-stack-1x"
+											style="position: relative; bottom: 2px;"></i>
+									</span>
+									</a>
+								</div>
+								<div id="s-lib-alert" title="">
+									<div id="s-lib-alert-content"></div>
+								</div>
+								<!-- BEGIN: Custom Footer -->
+
+								<!-- BEGIN: Custom Footer -->
+
+								<div class="container-fluid cust_footer">
+
+									<div class="row">
+										<div id="s-lg-col-1" class="col-md-4">
+											<img
+												src="https://libapps.s3.amazonaws.com/accounts/13288/images/ACA-5231_Library_logo6.png"
+												alt="Indiana Wesleyan University - Lewis A. Jackson Library"
+												width="241px" height="96px">
+										</div>
+										<div id="s-lg-col-2" class="col-md-4"></div>
+										<div id="s-lg-col-3" class="col-md-4" style="padding: 20px">
+											<div style="padding-right: 40px">
+												<a class="btn btn-default"
+													style="background-color: #fff; border-radius: 25px"
+													onclick="return SnapABug.startLink();"><i
+													class="fa fa-comment fa-lg" style="color: #737373"></i></a>    
+												<a class="btn btn-default"
+													style="background-color: #fff; border-radius: 25px"
+													href="https://www.facebook.com/IWUJacksonLibrary?fref=ts/"
+													target="_blank" aria-label="facebook"> <i
+													class="fab fa-facebook-f fa-lg"
+													style="color: #737373; padding: 4px"></i></a>     <a
+													class="btn btn-default"
+													style="background-color: #fff; border-radius: 25px"
+													href="https://www.instagram.com/iwujacksonlibrary/"
+													target="_blank" aria-label="instagram"><i
+													class="fab fa-instagram fa-lg" style="color: #737373"></i></a>    
+												<a class="btn btn-default"
+													style="background-color: #fff; border-radius: 25px"
+													href="http://indwes.libguides.com/appointment"
+													aria-label="ask us a question"><i
+													class="fa fa-question fa-lg" style="color: #737373"></i></a>
+											</div>
+											<br /> <span style="color: white;"> Lewis A. Jackson
+												Library<br /> 4201 S. Washington St.<br /> Marion, IN
+												46970<br /> 765.677.2955
+											</span>
+
+										</div>
+									</div>
+								</div>
+								<!-- END: Custom Footer -->
+
+								<!-- END: Custom Footer -->
